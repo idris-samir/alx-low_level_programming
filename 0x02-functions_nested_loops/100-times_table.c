@@ -1,4 +1,5 @@
-#include "main.h"
+#include <stdio.h>
+#include <main.h>
 
 /**
  * print_times_table - prints the times of n starting with 0
