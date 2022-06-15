@@ -12,7 +12,7 @@ int letr;
 
 for (letr = 'a'; letr <= 'z'; letr++)
 {
-putchar("%x", num)
+putchar("%x", letr)
 }
 putchar('\n');
 return (0);
