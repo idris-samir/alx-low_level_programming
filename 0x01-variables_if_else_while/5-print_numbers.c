@@ -12,8 +12,8 @@ int num;
 
 for (num = 0; num <= 10; num++)
 {
-putchar(num);
+printf("%d", num);
+prinf("\n");
 }
-putchar('\n');
 return (0);
 }
