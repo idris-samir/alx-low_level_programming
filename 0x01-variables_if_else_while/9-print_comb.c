@@ -5,21 +5,19 @@
  *
  * Return: Always 0
  */
-int main(void)
-{
-	int num;
 
-	for (num = 0; num <= 9; num++)
-	{
-		putchar((num % 10) + '0');
-		if (num  == 9)
-			continue;
+int main(void){
+  int digit, dig;
 
-		putchar(',');
-		putchar(' ');
-	}
-
-	putchar('\n');
-
-	return (0);
+  for (digit = 0; digit < 10; digit++)
+  {
+    for (dig = 0; dig < 10; dig++)
+    {
+      putchar('0' + digit);
+      putchar('0' + dig);
+      putchar(',');
+      putchar(' ');
+    }
+  }
+  return (0);
 }
