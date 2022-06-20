@@ -11,7 +11,7 @@ int main(void)
 	char c;
 
 	for (digit = 0; digit < 10; digit++)
-		putchar(digit % 10 + '0');
+		putchar('0' + digit);
 
 	for (c = 'a'; c <= 'f'; c++)
 		putchar(c);
