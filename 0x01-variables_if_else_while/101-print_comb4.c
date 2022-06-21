@@ -16,13 +16,13 @@ int main(void)
 		{
 			for (digit3 = digit2 + 1; digit3 < 10; digit3++)
 			{
-				putchar((digit1 % 10) + '0');
-				putchar((digit2 % 10) + '0');
-				putchar((digit3 % 10) + '0');
+				putchar('0' + digit1);
+				putchar('0' + digit2);
+				putchar('0' + digit3);
 
 				if (digit1 == 7 && digit2 == 8 && digit3 == 9)
 
-					continue;
+					break;
 
 				putchar(',');
 				putchar(' ');
